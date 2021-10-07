@@ -10,18 +10,6 @@ flex-wrap:wrap; justify-content: center;}
 div.everything {text-align: center;}
 div.ordered-list{text-align: left;}
 ol{border: 1px solid black; background-color: white; color: black; padding: 10px;}
-div.text{text-align: left; margibody
-{background-color: papayawhip; font-family: arial;}
-textarea{flex-direction: row-reverse;}
-
-div.img-content {padding: 25px; width: 400px}
-div.icon{}
-img {width: 100px}
-div.flex-container {display: flex;
-flex-wrap:wrap; justify-content: center;}
-div.everything {text-align: center;}
-div.ordered-list{text-align: left;}
-ol{border: 1px solid black; background-color: white; color: black; padding: 10px;}
 div.text{text-align: left; margin: 100px; margin-top: 50px; font-size: 25pt; font-family: serif; line-height: 45px;}
 
 
@@ -32,11 +20,3 @@ div.text{text-align: left; margin: 100px; margin-top: 50px; font-size: 25pt; fon
   body {background-color: orange;
  }
  div.text {font-size: 50px;}
-n: 100px; margin-top: 50px; font-size: 18pt; font-family: serif;}
-
-/*For Smaller Screens  */
-@media (max-width: 700px)
-{
-  body {background-color: magenta;}
-
-}
