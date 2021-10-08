@@ -2,12 +2,12 @@ body
 {background-color: papayawhip; font-family: arial;}
 textarea{flex-direction: row-reverse;}
 
-div.img-content {padding: 25px; width: 400px}
+div.img-content {padding: 25px; width: 400px;}
 div.icon{}
-img {width: 100px}
+img {width: 100px;}
 div.flex-container {display: flex;
 flex-wrap:wrap; justify-content: center;}
-div.half{flex-basis:20%}
+div.half{flex-basis:20%;}
 div.everything {text-align: center;}
 div.ordered-list{text-align: left;}
 ol{border: 1px solid black; background-color: white; color: black; padding: 10px;}
@@ -15,11 +15,11 @@ div.text{text-align: left; margin: 100px; margin-top: 50px; font-size: 25pt; fon
 
 
 /*For Smaller Screens  */
-@media(max-width: 300px)
+@media(max-width: 800px)
 
 
 
  {
- body {background-color: orange;}
+ div.flex-container{width:100%}
  div.text {font-size: 50px;}
  }
