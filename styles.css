@@ -19,7 +19,8 @@ div.text{text-align: left; margin: 100px; margin-top: 50px; font-size: 25pt; fon
 
 
 
-{
- body {background-color: papayawhip; width: 100%}
- div.text {font-size: 50px; width: 100%}
+ {
+ img{max-width: 100%}
+ body {background-color: orange; max-width: 100%}
+ div.text {font-size: 50px; max-width: 100%}
 }
